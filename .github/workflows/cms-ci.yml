@@ -1,0 +1,49 @@
+name: cms-ci
+
+on:
+  push:
+    branches: [master, main, develop]
+  pull_request:
+    branches: [master, main, develop]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cms-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-typecheck-build:
+    name: Test, type-check, build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci --no-audit --no-fund
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      - name: Build (Next.js)
+        run: npm run build
+        env:
+          NEXT_PUBLIC_EAGASEKE_ORIGIN: http://localhost:3000
+          NEXT_PUBLIC_PORTAL_URL: http://localhost:3003
+          AUTH_SECRET: ci-build-secret-min-32-chars-long-xx
+          AUTH_KEYCLOAK_ISSUER: http://localhost:8080/realms/community-platform
+          AUTH_KEYCLOAK_ID: cms
+          AUTH_KEYCLOAK_SECRET: ci-build-secret
+          AUTH_URL: http://localhost:3004

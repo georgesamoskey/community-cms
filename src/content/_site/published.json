@@ -1,0 +1,480 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-10T10:27:05.626Z",
+  "settings": {
+    "brand": "Community",
+    "tagline": "Épargne collective et tontines, en clair.",
+    "primaryCta": {
+      "label": "Connexion",
+      "href": "{{portal}}/login"
+    },
+    "theme": {
+      "accent": "#167a66",
+      "sun": "#f0c14d",
+      "background": "#f4f7f6",
+      "foreground": "#122420"
+    }
+  },
+  "nav": [
+    {
+      "id": "nav_mtvduw4c_4",
+      "label": "Fonctionnalités",
+      "href": "/features"
+    },
+    {
+      "id": "nav_mtvduw4c_5",
+      "label": "Tarifs",
+      "href": "/pricing"
+    },
+    {
+      "id": "nav_mtvduw4c_6",
+      "label": "À propos",
+      "href": "/about"
+    },
+    {
+      "id": "nav_mtvduw4c_7",
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "id": "nav_mtvduw4c_8",
+      "label": "Contact",
+      "href": "/contact"
+    },
+    {
+      "id": "nav_mtvduw4c_9",
+      "label": "Statut",
+      "href": "/status"
+    }
+  ],
+  "footer": {
+    "blurb": "Épargne collective et tontines, en clair.",
+    "links": [
+      {
+        "id": "fl_register",
+        "label": "Créer un compte",
+        "href": "/register"
+      },
+      {
+        "id": "fl_mtvduw4c_a",
+        "label": "Confidentialité",
+        "href": "/legal/privacy"
+      },
+      {
+        "id": "fl_mtvduw4c_b",
+        "label": "Conditions",
+        "href": "/legal/terms"
+      },
+      {
+        "id": "fl_mtvduw4c_c",
+        "label": "Portail membre",
+        "href": "{{portal}}/login",
+        "external": true
+      }
+    ],
+    "showStudioLink": true
+  },
+  "pages": [
+    {
+      "id": "page_mtvduw4c_g",
+      "slug": "",
+      "title": "Accueil",
+      "status": "published",
+      "seo": {
+        "title": "Accueil",
+        "description": "Community : tontines, cotisations et épargne collective pour les communautés."
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_d",
+          "type": "hero",
+          "props": {
+            "brand": "Community",
+            "headline": "L’épargne collective, enfin claire et accessible.",
+            "support": "Tontines, cotisations, Mobile Money et chat de groupe — une plateforme unifiée pour les membres et les communautés.",
+            "ctaPrimary": {
+              "label": "Créer un compte",
+              "href": "/register"
+            },
+            "ctaSecondary": {
+              "label": "Découvrir les fonctionnalités",
+              "href": "/features"
+            },
+            "ctaTertiary": {
+              "label": "Se connecter",
+              "href": "{{portal}}/login"
+            },
+            "tone": "dark"
+          }
+        },
+        {
+          "id": "b_mtvduw4c_e",
+          "type": "statusBanner",
+          "props": {
+            "show": true
+          }
+        },
+        {
+          "id": "b_mtvduw4c_f",
+          "type": "featureGrid",
+          "props": {
+            "title": "Pourquoi Community",
+            "items": [
+              {
+                "title": "Tontines modernes",
+                "summary": "Créez ou rejoignez des cercles d’épargne avec des règles transparentes et un suivi en temps réel."
+              },
+              {
+                "title": "Chat de communauté",
+                "summary": "Chaque tontine et cagnotte a sa salle : messages, activité live et engagement sans quitter Community."
+              },
+              {
+                "title": "Cotisations & Mobile Money",
+                "summary": "Historique, rappels et paiements locaux — frais plateforme visibles avant chaque opération."
+              },
+              {
+                "title": "Portail + ops HQ",
+                "summary": "Les membres vivent sur le portail web ; les équipes pilotent conformité et trésorerie dans le backoffice."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_i",
+      "slug": "features",
+      "title": "Fonctionnalités",
+      "status": "published",
+      "seo": {
+        "title": "Fonctionnalités"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_h",
+          "type": "featureGrid",
+          "props": {
+            "title": "Fonctionnalités",
+            "intro": "Du premier versement au chat de groupe : Community relie membres, finance et conversation sur la même plateforme.",
+            "items": [
+              {
+                "title": "Gestion de tontines",
+                "summary": "Cycles, membres, échéances et répartition.",
+                "details": "Définissez les règles du cercle, invitez des membres et suivez chaque tour jusqu’au payout."
+              },
+              {
+                "title": "Chat temps réel",
+                "summary": "Salles liées aux tontines et cagnottes.",
+                "details": "Messagerie Socket.IO + historique REST, typing, lectures et réactions."
+              },
+              {
+                "title": "Cotisations & cagnottes",
+                "summary": "Suivi des contributions et alertes.",
+                "details": "Les membres voient ce qui est dû et payé depuis le portail."
+              },
+              {
+                "title": "Notifications",
+                "summary": "Alertes in-app synchronisées.",
+                "details": "Compteur non lu, marquage lu, préférences."
+              },
+              {
+                "title": "Paiements & Mobile Money",
+                "summary": "Providers locaux et aperçu des frais.",
+                "details": "Fee-preview et initiation MM pour les comptes premium."
+              },
+              {
+                "title": "Portail membre web",
+                "summary": "Espace connecté Keycloak dédié.",
+                "details": "Profil, finance et chat dans un même shell."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_k",
+      "slug": "pricing",
+      "title": "Tarifs",
+      "status": "published",
+      "seo": {
+        "title": "Tarifs"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_j",
+          "type": "pricing",
+          "props": {
+            "title": "Tarifs",
+            "intro": "Des offres simples pour démarrer une tontine ou structurer une communauté entière.",
+            "plans": [
+              {
+                "name": "Essentiel",
+                "price": "Gratuit",
+                "description": "Pour découvrir Community et rejoindre une tontine.",
+                "highlights": [
+                  "Accès portail membre",
+                  "1 à 2 tontines",
+                  "Historique des cotisations"
+                ],
+                "ctaLabel": "Créer un compte",
+                "ctaHref": "/register"
+              },
+              {
+                "name": "Premium",
+                "price": "Sur devis",
+                "description": "Paiements, wallets et outils avancés pour les membres actifs.",
+                "highlights": [
+                  "Moyens de paiement",
+                  "Rappels automatiques",
+                  "Support prioritaire"
+                ],
+                "highlighted": true,
+                "ctaLabel": "Créer un compte",
+                "ctaHref": "/register"
+              },
+              {
+                "name": "Organisation",
+                "price": "Sur devis",
+                "description": "Pour associations, coopératives et réseaux multi-cercles.",
+                "highlights": [
+                  "Gestion multi-tontines",
+                  "Rôles org_owner",
+                  "Accompagnement dédié"
+                ],
+                "ctaLabel": "Créer un compte",
+                "ctaHref": "/register"
+              }
+            ],
+            "footnote": "Les frais de plateforme éventuels sont communiqués avant chaque opération."
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_n",
+      "slug": "about",
+      "title": "À propos",
+      "status": "published",
+      "seo": {
+        "title": "À propos"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_l",
+          "type": "richText",
+          "props": {
+            "title": "À propos",
+            "paragraphs": [
+              "Nous construisons l’infrastructure digitale de l’épargne collective en Afrique et au-delà.",
+              "Community est née d’un constat simple : les tontines et cercles d’épargne fonctionnent depuis des générations, mais manquent d’outils numériques clairs, sûrs et adaptés aux usages locaux.",
+              "Notre produit combine un portail membre, une API métier robuste et un backoffice opérationnel — pour que chaque contribution soit suivie, chaque payout anticipé, et chaque communauté mieux outillée."
+            ]
+          }
+        },
+        {
+          "id": "b_mtvduw4c_m",
+          "type": "values",
+          "props": {
+            "items": [
+              {
+                "title": "Clarté",
+                "text": "Des parcours compréhensibles, sans jargon inutile."
+              },
+              {
+                "title": "Confiance",
+                "text": "Traçabilité des flux et gouvernance des rôles."
+              },
+              {
+                "title": "Proximité",
+                "text": "Pensé pour les pratiques réelles des communautés."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_p",
+      "slug": "contact",
+      "title": "Contact",
+      "status": "published",
+      "seo": {
+        "title": "Contact"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_o",
+          "type": "contact",
+          "props": {
+            "title": "Contact",
+            "intro": "Une question sur Community, une démo, ou un besoin organisation ? Écrivez-nous.",
+            "email": "hello@community.example",
+            "note": "Site marketing de démonstration — adaptez l’e-mail dans le studio."
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_r",
+      "slug": "blog",
+      "title": "Blog",
+      "status": "published",
+      "seo": {
+        "title": "Blog"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_q",
+          "type": "blogList",
+          "props": {
+            "title": "Blog",
+            "intro": "Guides et idées pour l’épargne collective."
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_t",
+      "slug": "legal/privacy",
+      "title": "Confidentialité",
+      "status": "published",
+      "seo": {
+        "title": "Confidentialité"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_s",
+          "type": "legalSections",
+          "props": {
+            "title": "Politique de confidentialité",
+            "updated": "10 septembre 2026",
+            "sections": [
+              {
+                "heading": "Données collectées",
+                "body": "Nous collectons les informations nécessaires au fonctionnement du service : identité de compte, coordonnées, et données liées aux tontines et cotisations."
+              },
+              {
+                "heading": "Finalités",
+                "body": "Ces données servent à authentifier les membres, exécuter les parcours d’épargne, et assurer le support et la conformité."
+              },
+              {
+                "heading": "Conservation",
+                "body": "Les données sont conservées pendant la durée nécessaire aux finalités décrites, puis archivées ou supprimées selon les obligations légales."
+              },
+              {
+                "heading": "Contact",
+                "body": "Pour toute question relative à vos données, contactez-nous via la page Contact."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_v",
+      "slug": "legal/terms",
+      "title": "Conditions",
+      "status": "published",
+      "seo": {
+        "title": "Conditions"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_u",
+          "type": "legalSections",
+          "props": {
+            "title": "Conditions d’utilisation",
+            "updated": "10 septembre 2026",
+            "sections": [
+              {
+                "heading": "Acceptation",
+                "body": "En utilisant Community, vous acceptez les présentes conditions et vous engagez à un usage loyal du service."
+              },
+              {
+                "heading": "Compte membre",
+                "body": "Vous êtes responsable de la confidentialité de vos identifiants et des actions réalisées depuis votre compte."
+              },
+              {
+                "heading": "Service",
+                "body": "Community fournit des outils numériques pour l’épargne collective. Les engagements entre membres d’une tontine restent de leur responsabilité."
+              },
+              {
+                "heading": "Modifications",
+                "body": "Nous pouvons mettre à jour ces conditions ; la date de mise à jour est indiquée en tête de page."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_mtvduw4c_y",
+      "slug": "status",
+      "title": "Statut plateforme",
+      "status": "published",
+      "seo": {
+        "title": "Statut plateforme"
+      },
+      "blocks": [
+        {
+          "id": "b_mtvduw4c_w",
+          "type": "richText",
+          "props": {
+            "title": "Statut de la plateforme",
+            "paragraphs": [
+              "État des services Community en temps réel (API eagaseke)."
+            ]
+          }
+        },
+        {
+          "id": "b_mtvduw4c_x",
+          "type": "statusBanner",
+          "props": {
+            "show": true
+          }
+        }
+      ]
+    }
+  ],
+  "blog": [
+    {
+      "id": "post_mtvduw4a_1",
+      "slug": "demarrer-une-tontine",
+      "title": "Comment démarrer une tontine avec Community",
+      "date": "2026-03-01",
+      "excerpt": "Les étapes essentielles pour créer votre premier cercle d’épargne numérique.",
+      "body": [
+        "Une tontine réussie repose sur des règles claires : montant, fréquence, ordre des tours et engagement des membres.",
+        "Avec Community, vous définissez ces paramètres une fois, invitez vos proches, et suivez chaque cotisation depuis le portail membre.",
+        "Commencez petit, documentez les accords, et laissez la plateforme porter le suivi opérationnel."
+      ],
+      "status": "published"
+    },
+    {
+      "id": "post_mtvduw4a_2",
+      "slug": "cotisations-sans-stress",
+      "title": "Cotisations sans stress : rappels et transparence",
+      "date": "2026-02-12",
+      "excerpt": "Pourquoi la visibilité des échéances change la dynamique d’un groupe d’épargne.",
+      "body": [
+        "Les retards de cotisation naissent souvent d’un manque de rappel, pas d’un manque de volonté.",
+        "Community affiche l’historique et les prochaines échéances pour chaque membre, afin que chacun sache où en est le cercle."
+      ],
+      "status": "published"
+    },
+    {
+      "id": "post_mtvduw4a_3",
+      "slug": "epargne-collective-digitale",
+      "title": "L’épargne collective à l’ère digitale",
+      "date": "2026-01-20",
+      "excerpt": "Ce que le numérique apporte aux pratiques traditionnelles de mutualisation.",
+      "body": [
+        "Digitaliser une tontine ne signifie pas la remplacer : c’est la rendre plus lisible, plus sûre, et plus facile à faire grandir.",
+        "Les outils Community s’inscrivent dans cette continuité — du premier versement au payout final."
+      ],
+      "status": "published"
+    }
+  ],
+  "media": []
+}

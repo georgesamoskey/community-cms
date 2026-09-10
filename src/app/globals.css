@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f4f7f6;
+  --foreground: #122420;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  min-height: 100vh;
+}
+
+@keyframes cms-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cms-glow {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.cms-rise {
+  animation: cms-rise 0.7s ease-out both;
+}
+
+.cms-rise-delay {
+  animation: cms-rise 0.8s ease-out 0.12s both;
+}
+
+@keyframes cms-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cms-fade {
+  animation: cms-fade 0.7s ease-out both;
+}
+
+.cms-glow {
+  animation: cms-glow 6s ease-in-out infinite;
+}
+
+::selection {
+  background: #c5d7d1;
+  color: #122420;
+}
