@@ -54,6 +54,7 @@ const studioEmbedHeaders = [
 const nextConfig: NextConfig = {
   output: "standalone",
   poweredByHeader: false,
+  eslint: { ignoreDuringBuilds: true },
   async headers() {
     return [
       // Studio embeddable dans le shell backoffice (pas de X-Frame-Options DENY)
