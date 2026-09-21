@@ -7,7 +7,7 @@ const base = {
   version: 1 as const,
   updatedAt: "2026-01-01T00:00:00.000Z",
   settings: {
-    brand: "Community",
+    brand: "Akiba One",
     tagline: "FR",
     primaryCta: { label: "Connexion", href: "/login" },
     theme: {
@@ -25,7 +25,7 @@ const base = {
   media: [],
   localeOverlays: {
     en: {
-      settings: { brand: "Community EN", tagline: "EN" },
+      settings: { brand: "Akiba One EN", tagline: "EN" },
       nav: [{ id: "1", label: "Pricing", href: "/pricing" }],
       footer: { blurb: "Blurb EN" },
     },
@@ -41,7 +41,7 @@ describe("locale", () => {
 
   it("applyLocaleOverlay swaps chrome for en", () => {
     const en = applyLocaleOverlay(base, "en");
-    assert.equal(en.settings.brand, "Community EN");
+    assert.equal(en.settings.brand, "Akiba One EN");
     assert.equal(en.settings.tagline, "EN");
     assert.equal(en.nav[0]?.label, "Pricing");
     assert.equal(en.footer.blurb, "Blurb EN");
@@ -49,7 +49,7 @@ describe("locale", () => {
 
   it("applyLocaleOverlay is noop for default", () => {
     const fr = applyLocaleOverlay(base, "fr");
-    assert.equal(fr.settings.brand, "Community");
+    assert.equal(fr.settings.brand, "Akiba One");
     assert.equal(fr.nav[0]?.label, "Tarifs");
   });
 });

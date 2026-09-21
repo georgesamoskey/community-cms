@@ -30,11 +30,11 @@ const sans = Source_Sans_3({
 
 export const metadata: Metadata = {
   title: {
-    default: "Community — Épargne collective",
-    template: "%s · Community",
+    default: "Akiba One — Épargne collective",
+    template: "%s · Akiba One",
   },
   description:
-    "Community : tontines, cotisations et épargne collective pour les communautés.",
+    "Akiba One : tontines, cotisations et épargne collective pour les communautés.",
 };
 
 export default async function RootLayout({

@@ -80,7 +80,7 @@ export function createDefaultSiteDocument(): SiteDocument {
     version: 1,
     updatedAt: new Date().toISOString(),
     settings: {
-      brand: "Community",
+      brand: "Akiba One",
       tagline: "Épargne collective et tontines, en clair.",
       primaryCta: { label: "Connexion", href: "{{portal}}/login" },
       theme: {
@@ -116,7 +116,7 @@ export function createDefaultSiteDocument(): SiteDocument {
     localeOverlays: {
       en: {
         settings: {
-          brand: "Community",
+          brand: "Akiba One",
           tagline: "Collective savings and tontines, made clear.",
           primaryCta: { label: "Sign in", href: "{{portal}}/login" },
         },
@@ -144,7 +144,7 @@ export function createDefaultSiteDocument(): SiteDocument {
       },
       rn: {
         settings: {
-          brand: "Community",
+          brand: "Akiba One",
           tagline: "Ugushora hamwe n’amatontine, bisobanutse.",
           primaryCta: { label: "Injira", href: "{{portal}}/login" },
         },
@@ -172,7 +172,7 @@ export function createDefaultSiteDocument(): SiteDocument {
       },
       sw: {
         settings: {
-          brand: "Community",
+          brand: "Akiba One",
           tagline: "Akiba ya pamoja na tontine, kwa uwazi.",
           primaryCta: { label: "Ingia", href: "{{portal}}/login" },
         },
@@ -208,7 +208,7 @@ export function createDefaultSiteDocument(): SiteDocument {
             id: uid("b"),
             type: "hero",
             props: {
-              brand: "Community",
+              brand: "Akiba One",
               headline: "L’épargne collective, enfin claire et accessible.",
               support:
                 "Tontines, cotisations, Mobile Money et chat de groupe — une plateforme unifiée pour les membres et les communautés.",
@@ -561,7 +561,7 @@ export function defaultPropsFor(type: BlockType): SiteBlock["props"] {
   switch (type) {
     case "hero":
       return {
-        brand: "Community",
+        brand: "Akiba One",
         headline: "Nouveau titre",
         support: "Sous-titre d’accompagnement.",
         ctaPrimary: { label: "Commencer", href: "/register" },

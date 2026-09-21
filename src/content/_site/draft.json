@@ -2,7 +2,7 @@
   "version": 1,
   "updatedAt": "2026-09-10T10:27:05.626Z",
   "settings": {
-    "brand": "Community",
+    "brand": "Akiba One",
     "tagline": "Épargne collective et tontines, en clair.",
     "primaryCta": {
       "label": "Connexion",
@@ -89,7 +89,7 @@
           "id": "b_mtvduw4c_d",
           "type": "hero",
           "props": {
-            "brand": "Community",
+            "brand": "Akiba One",
             "headline": "L’épargne collective, enfin claire et accessible.",
             "support": "Tontines, cotisations, Mobile Money et chat de groupe — une plateforme unifiée pour les membres et les communautés.",
             "ctaPrimary": {

@@ -2,7 +2,7 @@ import type { Locale } from "./config";
 
 export const messages = {
   fr: {
-    brand: "Community",
+    brand: "Akiba One",
     site: {
       features: "Fonctionnalités",
       pricing: "Tarifs",
@@ -99,7 +99,7 @@ export const messages = {
       noRooms: "Pas encore de discussion",
       createTontine: "Créer une tontine",
       createPot: "Créer une cagnotte",
-      heroSub: "Discutez d’abord, gérez ensuite. Community est fait pour que vous reveniez naturellement — pas pour remplir des formulaires.",
+      heroSub: "Discutez d’abord, gérez ensuite. Akiba One est fait pour que vous reveniez naturellement — pas pour remplir des formulaires.",
       streakDays: "{{n}} j de streak",
       streakRisk: "· à risque",
       levelPts: "Niv. {{level}} · {{pts}} pts",
@@ -134,7 +134,7 @@ export const messages = {
       stepInvite: "Inviter quelqu’un du cercle"
     },
     register: {
-      title: "Créer votre compte Community",
+      title: "Créer votre compte Akiba One",
       subtitle: "Inscription avec vérification SMS, puis accès immédiat au portail.",
       firstName: "Prénom",
       lastName: "Nom",
@@ -189,7 +189,7 @@ export const messages = {
       createAccount: "Créer un compte",
       alreadyMember: "Déjà membre — se connecter",
       hint: "Créez un compte ou connectez-vous pour rejoindre ce groupe.",
-      back: "Retour Community"
+      back: "Retour Akiba One"
     },
     tontines: {
       title: "Mes tontines",
@@ -537,7 +537,7 @@ export const messages = {
       feeRef: "Aperçu frais plateforme (réf. 10 000 BIF)",
       currency: "Devise",
       payerPhone: "Téléphone payeur (E.164)",
-      defaultDesc: "Paiement portail Community",
+      defaultDesc: "Paiement portail Akiba One",
       calc: "Calcul…",
       simFees: "Simuler frais",
       sending: "Envoi…",
@@ -604,7 +604,7 @@ export const messages = {
     }
   },
   en: {
-    brand: "Community",
+    brand: "Akiba One",
     site: {
       features: "Features",
       pricing: "Pricing",
@@ -701,7 +701,7 @@ export const messages = {
       noRooms: "No chats yet",
       createTontine: "Create une tontine",
       createPot: "Create une cagnotte",
-      heroSub: "Chat first, manage next. Community is built so you come back naturally — not to fill forms.",
+      heroSub: "Chat first, manage next. Akiba One is built so you come back naturally — not to fill forms.",
       streakDays: "{{n}} d streak",
       streakRisk: "· at risk",
       levelPts: "Lvl {{level}} · {{pts}} pts",
@@ -736,7 +736,7 @@ export const messages = {
       stepInvite: "Invite quelqu’un du cercle"
     },
     register: {
-      title: "Create votre compte Community",
+      title: "Create votre compte Akiba One",
       subtitle: "SMS verification, then instant portal access.",
       firstName: "First name",
       lastName: "Last name",
@@ -791,7 +791,7 @@ export const messages = {
       createAccount: "Create un compte",
       alreadyMember: "Already a member — sign in",
       hint: "Create an account or sign in to join this group.",
-      back: "Back Community"
+      back: "Back Akiba One"
     },
     tontines: {
       title: "My tontines",
@@ -1077,7 +1077,7 @@ export const messages = {
       noData: "No data.",
       days: "{{n}} d",
       protectOk: "Streak protection requested",
-      credit: "Community credit",
+      credit: "Akiba One credit",
       creditScore: "Score",
       feeDiscount: "Fee discount",
       canCreateTontine: "Eligible to create a tontine",
@@ -1138,7 +1138,7 @@ export const messages = {
       feeRef: "Fee preview plateforme (réf. 10 000 BIF)",
       currency: "Currency",
       payerPhone: "Phone payeur (E.164)",
-      defaultDesc: "Community portal payment",
+      defaultDesc: "Akiba One portal payment",
       calc: "Calculating…",
       simFees: "Simulate fees",
       sending: "Sending…",
@@ -1205,7 +1205,7 @@ export const messages = {
     }
   },
   rn: {
-    brand: "Community",
+    brand: "Akiba One",
     site: {
       features: "Ibikorwa",
       pricing: "Ibiciro",
@@ -1302,7 +1302,7 @@ export const messages = {
       noRooms: "No chats yet",
       createTontine: "Create une tontine",
       createPot: "Create une cagnotte",
-      heroSub: "Chat first, manage next. Community is built so you come back naturally — not to fill forms.",
+      heroSub: "Chat first, manage next. Akiba One is built so you come back naturally — not to fill forms.",
       streakDays: "{{n}} d streak",
       streakRisk: "· at risk",
       levelPts: "Lvl {{level}} · {{pts}} pts",
@@ -1337,7 +1337,7 @@ export const messages = {
       stepInvite: "Invite quelqu’un du cercle"
     },
     register: {
-      title: "Create votre compte Community",
+      title: "Create votre compte Akiba One",
       subtitle: "SMS verification, then instant portal access.",
       firstName: "First name",
       lastName: "Last name",
@@ -1392,7 +1392,7 @@ export const messages = {
       createAccount: "Create un compte",
       alreadyMember: "Already a member — sign in",
       hint: "Create an account or sign in to join this group.",
-      back: "Back Community"
+      back: "Back Akiba One"
     },
     tontines: {
       title: "My tontines",
@@ -1678,7 +1678,7 @@ export const messages = {
       noData: "No data.",
       days: "{{n}} d",
       protectOk: "Streak protection requested",
-      credit: "Community credit",
+      credit: "Akiba One credit",
       creditScore: "Score",
       feeDiscount: "Fee discount",
       canCreateTontine: "Eligible to create a tontine",
@@ -1739,7 +1739,7 @@ export const messages = {
       feeRef: "Fee preview plateforme (réf. 10 000 BIF)",
       currency: "Currency",
       payerPhone: "Phone payeur (E.164)",
-      defaultDesc: "Community portal payment",
+      defaultDesc: "Akiba One portal payment",
       calc: "Calculating…",
       simFees: "Simulate fees",
       sending: "Sending…",
@@ -1806,7 +1806,7 @@ export const messages = {
     }
   },
   sw: {
-    brand: "Community",
+    brand: "Akiba One",
     site: {
       features: "Vipengele",
       pricing: "Bei",
@@ -1903,7 +1903,7 @@ export const messages = {
       noRooms: "No chats yet",
       createTontine: "Create une tontine",
       createPot: "Create une cagnotte",
-      heroSub: "Chat first, manage next. Community is built so you come back naturally — not to fill forms.",
+      heroSub: "Chat first, manage next. Akiba One is built so you come back naturally — not to fill forms.",
       streakDays: "{{n}} d streak",
       streakRisk: "· at risk",
       levelPts: "Lvl {{level}} · {{pts}} pts",
@@ -1938,7 +1938,7 @@ export const messages = {
       stepInvite: "Invite quelqu’un du cercle"
     },
     register: {
-      title: "Create votre compte Community",
+      title: "Create votre compte Akiba One",
       subtitle: "SMS verification, then instant portal access.",
       firstName: "First name",
       lastName: "Last name",
@@ -1993,7 +1993,7 @@ export const messages = {
       createAccount: "Create un compte",
       alreadyMember: "Already a member — sign in",
       hint: "Create an account or sign in to join this group.",
-      back: "Back Community"
+      back: "Back Akiba One"
     },
     tontines: {
       title: "My tontines",
@@ -2279,7 +2279,7 @@ export const messages = {
       noData: "No data.",
       days: "{{n}} d",
       protectOk: "Streak protection requested",
-      credit: "Community credit",
+      credit: "Akiba One credit",
       creditScore: "Score",
       feeDiscount: "Fee discount",
       canCreateTontine: "Eligible to create a tontine",
@@ -2340,7 +2340,7 @@ export const messages = {
       feeRef: "Fee preview plateforme (réf. 10 000 BIF)",
       currency: "Currency",
       payerPhone: "Phone payeur (E.164)",
-      defaultDesc: "Community portal payment",
+      defaultDesc: "Akiba One portal payment",
       calc: "Calculating…",
       simFees: "Simulate fees",
       sending: "Sending…",

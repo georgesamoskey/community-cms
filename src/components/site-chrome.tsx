@@ -224,7 +224,7 @@ function SiteFooterInner() {
 
   const portal = portalUrl();
   const bo = backofficeUrl();
-  const brand = footer?.brand ?? "Community";
+  const brand = footer?.brand ?? "Akiba One";
   const blurb = footer?.blurb ?? "Épargne collective et tontines, en clair.";
   const links = footer?.links ?? [];
   const showStudio = footer?.showStudioLink ?? true;
