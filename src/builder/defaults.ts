@@ -89,7 +89,7 @@ export function createDefaultSiteDocument(): SiteDocument {
         background: "#f4f7f6",
         foreground: "#122420",
       },
-      i18n: { defaultLocale: "fr", locales: ["fr", "en", "rn", "sw"] },
+      i18n: { defaultLocale: "fr", locales: ["fr", "en", "rn", "sw", "ln"] },
     },
     nav: [
       { id: uid("nav"), label: "Fonctionnalités", href: "/features" },

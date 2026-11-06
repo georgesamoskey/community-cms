@@ -1,9 +1,20 @@
 /** Référentiel multi-pays / multi-langues (aligné eagaseke). */
 
-export const LOCALES = ["fr", "en", "rn", "sw"] as const;
+export const LOCALES = ["fr", "en", "rn", "sw", "ln"] as const;
 export type Locale = (typeof LOCALES)[number];
 
-export const COUNTRIES = ["BI", "CD", "RW", "TZ", "KE", "UG"] as const;
+export const COUNTRIES = [
+  "BI",
+  "CD",
+  "RW",
+  "TZ",
+  "KE",
+  "UG",
+  "SN",
+  "CI",
+  "CG",
+  "NG",
+] as const;
 export type CountryCode = (typeof COUNTRIES)[number];
 
 export const LOCALE_META: Record<
@@ -14,6 +25,7 @@ export const LOCALE_META: Record<
   en: { name: "English", nativeName: "English", bcp47: "en-GB" },
   rn: { name: "Kirundi", nativeName: "Ikirundi", bcp47: "rn-BI" },
   sw: { name: "Swahili", nativeName: "Kiswahili", bcp47: "sw-TZ" },
+  ln: { name: "Lingala", nativeName: "Lingála", bcp47: "ln-CD" },
 };
 
 export const COUNTRY_META: Record<
@@ -37,7 +49,7 @@ export const COUNTRY_META: Record<
     name: "DR Congo",
     currency: "CDF",
     dial: "+243",
-    languages: ["fr", "en"],
+    languages: ["fr", "sw", "ln", "en"],
     defaultLocale: "fr",
   },
   RW: {
@@ -66,6 +78,34 @@ export const COUNTRY_META: Record<
     currency: "UGX",
     dial: "+256",
     languages: ["en", "sw"],
+    defaultLocale: "en",
+  },
+  SN: {
+    name: "Senegal",
+    currency: "XOF",
+    dial: "+221",
+    languages: ["fr", "en"],
+    defaultLocale: "fr",
+  },
+  CI: {
+    name: "Côte d'Ivoire",
+    currency: "XOF",
+    dial: "+225",
+    languages: ["fr", "en"],
+    defaultLocale: "fr",
+  },
+  CG: {
+    name: "Congo-Brazzaville",
+    currency: "XAF",
+    dial: "+242",
+    languages: ["fr", "en"],
+    defaultLocale: "fr",
+  },
+  NG: {
+    name: "Nigeria",
+    currency: "NGN",
+    dial: "+234",
+    languages: ["en"],
     defaultLocale: "en",
   },
 };

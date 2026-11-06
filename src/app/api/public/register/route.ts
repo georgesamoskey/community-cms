@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
       .trim()
       .toUpperCase();
     const inviteToken = String(body.inviteToken ?? body.invite ?? "").trim();
-    const LANGS = new Set(["fr", "en", "rn", "sw"]);
+    const LANGS = new Set(["fr", "en", "rn", "sw", "ln"]);
 
     if (!firstName || !lastName) {
       return NextResponse.json(
