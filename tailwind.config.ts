@@ -7,23 +7,26 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // Alignée sur la palette « Confiance & Assurance » de
+        // community-portal (où ces pages sont réellement affichées
+        // publiquement) au lieu du vert d'origine.
         ink: {
-          50: "#f4f7f6",
-          100: "#e2ebe8",
-          200: "#c5d7d1",
-          700: "#2a4a42",
-          800: "#1c332e",
-          900: "#122420",
+          50: "#f4f8fc",
+          100: "rgba(13, 31, 51, 0.08)",
+          200: "#e3edf8",
+          700: "#2c4a6b",
+          800: "#0d1f33",
+          900: "#061428",
         },
         lagoon: {
-          400: "#3db8a0",
-          500: "#1f9a82",
-          600: "#167a66",
-          700: "#115c4d",
+          400: "#458fc8",
+          500: "#337ab7",
+          600: "#1a5276",
+          700: "#0d3b6b",
         },
         sun: {
-          400: "#f0c14d",
-          500: "#e2a820",
+          400: "#fde68a",
+          500: "#d97706",
         },
       },
       fontFamily: {
